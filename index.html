@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey Hub</title>
+    <script
+      src="https://kit.fontawesome.com/5c82cfa0a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section class="navbar flex justify-between">
+      <div class="nav-text">
+        <h1 class="text-3xl">Hockey<span class="text-rose-600">'</span>s</h1>
+      </div>
+      <div class="nav-item">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a class="text-red-700">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li>
+                  <a><i class="fa-brands fa-searchengin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex justify-around">
+            <div class="h-2/5">
+              <ul class="menu menu-horizontal px-1 mx-3">
+                <li><a class="text-red-700">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-end mx-2 flex flex-row gap-3 class="h-2/5"">
+            <i class="fa-brands fa-searchengin"></i>
+            <a class="btn btn-error">Get Ticket</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section -->
+    <header class="banners"></header>
+
+    <main>
+      <!-- professional hockeys -->
+      <section class="professional_hockey"></section>
+
+      <!-- programme section cards -->
+      <section class="program_section"></section>
+
+      <!-- our new products -->
+      <section>
+        <div class="product-text"></div>
+        <div class="product-cards"></div>
+      </section>
+
+      <!-- clients question -->
+      <section class="clients-question"></section>
+
+      <section class="get-in-touch"></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
