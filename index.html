@@ -211,7 +211,7 @@
           <h1 class="text-4xl">Our New Products</h1>
           <p>New products are always coming to our club for serving our student</p>
         </div>
-        <div class="product-cards grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 mt-5">
+        <div class="product-cards grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 mt-5 m-5">
           <div class="card-1 flex flex-col items-center   md:flex-row lg:flex-row xl:flex-row ">
             <div class="">
               <figure>
@@ -386,9 +386,96 @@
       </section>
 
       <!-- clients question -->
-      <section class="clients-question"></section>
+      <section>
+        <div class="client-text text-center m-4">
+          <h1 class="text-5xl">Client Question</h1>
+          <p>If you have any questions or information that you want to know more about us,You can ask...</p>
 
-      <section class="get-in-touch"></section>
+        </div>
+        <div  class="clients-question grid grid-cols-1 justify-between  md:grid-cols-2 justify-between lg:grid-cols-2 justify-around xl:grid-cols-2 justify-around items-center m-5">
+          
+        <div class="client-img">
+          <img src="./Images/11.png" alt="">
+        </div>
+        <div class="client-accordian">
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the payment options?</div>
+            <div class="collapse-content">
+              <p>We allow bkash,nagad and bank payment</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Do You Have Refund Options</div>
+            <div class="collapse-content">
+              <p>Yes we have refund options.but you have to request for it within 7 days after getting admitted..</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">If you I want to know more?</div>
+            <div class="collapse-content">
+              <p>Please email us: hocky@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="get-in-touch m-5">
+        <div class="text-center">
+          <h1 class="text-5xl">Get in Touch</h1>
+          <p>You can get in touch with us.You can fill the form and send message us..</p>
+        </div>
+    <div class="grid grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 m-5">
+      <div class="img  flex flex-col gap-5">
+        <div class="phone">
+          <img src="./Images/Group 1171275317.png" alt="">
+          <h1>Phone Number</h1>
+          <h3 class="font-bold text-xl">017234234</h3>
+        </div>
+        <div class="email">
+          <img src="./Images/Group 1171275318.png" alt="">
+          <h1>Email</h1>
+          <h3 class="font-bold text-xl">hockeys@support.com</h3>
+        </div>
+        <div class="map">
+          <img src="./Images/Group 1171275321.png" alt="">
+          <h1>Location</h1>
+          <h3 class="font-bold text-xl">Dhaka,Bangladesh</h3>
+        </div>
+      </div>
+      <div class="form grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div>
+          <h1>Your Name</h1>
+          <input type="text" placeholder="Enter Your Name" class="input w-full max-w-xs backdrop-brightness-75 bg-white" />
+        </div>
+        <div>
+          <h1>Your Email</h1>
+          <input type="text" placeholder="Enter Your Email" class="input w-full max-w-xs backdrop-brightness-75 bg-white" />
+        </div>
+        <div>
+          <h1>Subject</h1>
+          <input type="text" placeholder="Enter Your subject" class="input w-full max-w-xs backdrop-brightness-75 bg-white" />
+        </div>
+        <div>
+          <h1>Phone Number</h1>
+          <input type="text" placeholder="Enter Your Phone no" class="input w-full max-w-xs backdrop-brightness-75 bg-white" />
+        </div>
+        <div class="col-span-1 md:col-span-2">
+          <h1>Message:</h1>
+          <textarea placeholder="Write Your message" class="textarea textarea-bordered textarea-lg w-full max-w-xs bg-white"></textarea>
+        </div>
+        <div class="col-span-1 md:col-span-2 flex justify-center">
+          <button class="btn bg-orange-900">Send Message</button>
+        </div>
+      </div>
+      
+
+      </div>
+    </div>
+      </section>
     </main>
     <footer></footer>
   </body>
